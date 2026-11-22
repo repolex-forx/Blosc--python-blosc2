@@ -1302,6 +1302,87 @@
       ],
       "ast": [
         "aggregate/ast/0fc782e4c558aa181580515af6d1203d6bf3efbc/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/0fc782e4c558aa181580515af6d1203d6bf3efbc.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "numpy",
+          "ecosystem": "PYPI",
+          "version": "1.26",
+          "githubOrg": "numpy",
+          "githubRepo": "numpy",
+          "githubUrl": "https://github.com/numpy/numpy",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "msgpack",
+          "ecosystem": "PYPI",
+          "version": "1.2.4",
+          "githubOrg": "msgpack",
+          "githubRepo": "msgpack-python",
+          "githubCommit": "a284599c6e2ddb71459f3457a846022d3774ac30",
+          "githubTag": "v1.2.4",
+          "githubUrl": "https://github.com/msgpack/msgpack-python",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "numexpr",
+          "ecosystem": "PYPI",
+          "version": "2.14.1",
+          "githubOrg": "pydata",
+          "githubRepo": "numexpr",
+          "githubCommit": "048a5c42b09e4c5a4ccb5097162ff7c571973fde",
+          "githubTag": "v2.14.1",
+          "githubUrl": "https://github.com/pydata/numexpr",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "requests",
+          "ecosystem": "PYPI",
+          "version": "2.34.2",
+          "githubOrg": "psf",
+          "githubRepo": "requests",
+          "githubCommit": "6e83187b8feb273ed4c6cdab5efd8d54901dfab3",
+          "githubTag": "v2.34.2",
+          "githubUrl": "https://github.com/psf/requests",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "torch",
+          "ecosystem": "PYPI",
+          "version": "2.15.0",
+          "githubOrg": "pytorch",
+          "githubRepo": "pytorch",
+          "githubCommit": "31a77fc9c0a7c6fff15a1ff58c743f53b1a9d457",
+          "githubTag": "v2.15.0",
+          "githubUrl": "https://github.com/pytorch/pytorch",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/torch/_C/_VariableFunctions.pyi"
+        },
+        {
+          "packageName": "psutil",
+          "ecosystem": "PYPI",
+          "version": "7.2.2",
+          "githubOrg": "giampaolo",
+          "githubRepo": "psutil",
+          "githubCommit": "9eea97dd6f1d16ea33f5144c8925f1ce7a0688e1",
+          "githubTag": "v7.2.2",
+          "githubUrl": "https://github.com/giampaolo/psutil",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/psutil/__init__.py"
+        },
+        {
+          "packageName": "tqdm",
+          "ecosystem": "PYPI",
+          "version": "4.70.1",
+          "githubOrg": "tqdm",
+          "githubRepo": "tqdm",
+          "githubCommit": "9cf5a12b1f955468a17f0ba3c59092b23e4258ac",
+          "githubTag": "v4.70.1",
+          "githubUrl": "https://github.com/tqdm/tqdm",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/tqdm/std.py"
+        }
       ]
     }
   ],

@@ -1,0 +1,44 @@
+[2026-11-22T03:20:39Z] === ENRICH ITERATION 1 START | repo=Blosc/python-blosc2 sha=0fc782e4 ===
+[2026-11-22T03:20:39Z] [iter=1] PHASE START: enrich repo=Blosc/python-blosc2 sha=0fc782e4 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/0fc782e4-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/0fc782e4c558aa181580515af6d1203d6bf3efbc.nq.gz
+[2026-11-22T03:20:44Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T03:21:03Z] [iter=1] AST store loaded triples=2101549 load_secs=18 mem_mb=893 MB
+[2026-11-22T03:21:03Z] [iter=1] Step 2: Finding LSP targets mem_mb=893 MB
+[2026-11-22T03:21:05Z] [iter=1] LSP targets found call_sites=15371 imports=726 extends=23 implements=0 secs=3
+[2026-11-22T03:21:07Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=893 MB
+[2026-11-22T03:21:21Z] [iter=1] Position index built positions=140988 nodes_with_types=180556 secs=14 mem_mb=893 MB
+[2026-11-22T03:21:21Z] [iter=1] Step 3: Starting LSP resolution mem_mb=893 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T03:21:21Z] [iter=1] Resolving target type target_type=call_site count=15371
+[2026-11-22T03:21:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.7 files_done=0 resolved=0 errors=0 current=tests/ndarray/test_zeros.py
+[2026-11-22T03:28:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.4 files_done=2 resolved=1132 errors=0 current=bench/ndarray/jit-expr.py
+[2026-11-22T03:28:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.9 files_done=8 resolved=1423 errors=0 current=tests/ndarray/test_reductions.py
+[2026-11-22T03:29:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.8 files_done=15 resolved=2073 errors=0 current=tests/test_prefilters.py
+[2026-11-22T03:30:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.8 files_done=17 resolved=2261 errors=0 current=src/blosc2/ndarray.py
+[2026-11-22T03:35:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.9 files_done=18 resolved=3046 errors=0 current=bench/large-tree-store.py
+[2026-11-22T03:36:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.5 files_done=19 resolved=3316 errors=0 current=tests/ndarray/test_lazyexpr.py
+[2026-11-22T03:36:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.0 files_done=20 resolved=3694 errors=0 current=tests/ndarray/test_dsl_kernels.py
+[2026-11-22T03:37:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.0 files_done=23 resolved=4034 errors=0 current=examples/tree-store-blog.py
+[2026-11-22T03:38:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.6 files_done=27 resolved=4256 errors=0 current=tests/test_schunk.py
+[2026-11-22T03:38:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.1 files_done=30 resolved=4400 errors=0 current=bench/ndarray/compute_dists.py
+[2026-11-22T03:39:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.3 files_done=35 resolved=4748 errors=0 current=tests/ndarray/test_jit.py
+[2026-11-22T03:40:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.3 files_done=38 resolved=5007 errors=0 current=bench/ndarray/fancy_index1D.py
+[2026-11-22T03:41:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.2 files_done=41 resolved=5404 errors=0 current=src/blosc2/dsl_kernel.py
+[2026-11-22T03:44:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.8 files_done=42 resolved=5902 errors=0 current=tests/ndarray/test_stringarrays.py
+[2026-11-22T03:45:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.6 files_done=44 resolved=6091 errors=0 current=examples/ndarray/linspace-constructor.py
+[2026-11-22T03:45:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.1 files_done=57 resolved=6631 errors=0 current=bench/fill_special.py
+[2026-11-22T03:46:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.0 files_done=66 resolved=7052 errors=0 current=tests/ndarray/test_copy.py
+[2026-11-22T03:47:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.5 files_done=77 resolved=7366 errors=0 current=examples/ndarray/general_expressions.py
+[2026-11-22T03:47:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=27.1 files_done=83 resolved=7677 errors=0 current=tests/ndarray/test_getitem.py
+[2026-11-22T03:48:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=27.6 files_done=98 resolved=7987 errors=0 current=bench/ndarray/fancy_index.py
+[2026-11-22T03:48:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.1 files_done=106 resolved=8219 errors=0 current=tests/test_open_c2array.py
+[2026-11-22T03:49:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.6 files_done=118 resolved=8541 errors=0 current=examples/tree-store.py
+[2026-11-22T03:49:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=29.1 files_done=150 resolved=9135 errors=0 current=examples/ndarray/bytedelta_filter.py
+[2026-11-22T03:50:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=29.6 files_done=163 resolved=9374 errors=0 current=tests/test_mmap.py
+[2026-11-22T03:50:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=30.1 files_done=222 resolved=9804 errors=0 current=bench/ndarray/run-jit-reduc-sizes.sh
+[2026-11-22T03:50:46Z] [iter=1] Target type resolved target_type=call_site resolved=9804 errors=0 secs=1765 mem_mb=893 MB
+[2026-11-22T03:50:46Z] [iter=1] Resolving target type target_type=import_statement count=726
+[2026-11-22T03:50:55Z] [iter=1] Target type resolved target_type=import_statement resolved=374 errors=0 secs=9 mem_mb=893 MB
+[2026-11-22T03:50:55Z] [iter=1] Resolving target type target_type=extends_clause count=23
+[2026-11-22T03:50:58Z] [iter=1] Target type resolved target_type=extends_clause resolved=23 errors=0 secs=2 mem_mb=893 MB
+[2026-11-22T04:16:53Z] [iter=1] Step 5: Writing final enrichment file triples=139455
+[2026-11-22T04:16:55Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/0fc782e4c558aa181580515af6d1203d6bf3efbc.nq.gz size_kb=3006
+[2026-11-22T04:16:55Z] [iter=1] PHASE END: enrich elapsed_s=3376 elapsed_min=56.3 total_triples=139455

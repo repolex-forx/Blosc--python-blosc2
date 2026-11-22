@@ -3,6 +3,11 @@
   "repo": "python-blosc2",
   "versions": [
     {
+      "commit": "0fc782e4c558aa181580515af6d1203d6bf3efbc",
+      "tag": "v4.1.2",
+      "parsed_at": "2026-11-22T04:31:28.193961+00:00"
+    },
+    {
       "commit": "d3bca9e53db4d47b06814e3ec055795c32f39482",
       "tag": "",
       "parsed_at": "2026-11-06T06:59:06.015130+00:00"

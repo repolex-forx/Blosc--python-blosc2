@@ -1383,7 +1383,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/tqdm/std.py"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/0fc782e4c558aa181580515af6d1203d6bf3efbc/chunk-001.nq.gz",
+      "dep": "dep/0fc782e4c558aa181580515af6d1203d6bf3efbc.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",

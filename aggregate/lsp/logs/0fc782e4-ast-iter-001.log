@@ -1,0 +1,7 @@
+[2026-11-22T03:14:55Z] === AST ITERATION 1 START | repo=Blosc/python-blosc2 sha=0fc782e4 ===
+[2026-11-22T03:14:55Z] [iter=1] PHASE START: ast repo=Blosc/python-blosc2 sha=0fc782e4
+[2026-11-22T03:14:55Z] [iter=1] Building AST aggregate chunks
+[2026-11-22T03:18:52Z] [iter=1] AST chunks built count=1 triples=2101550
+[2026-11-22T03:18:52Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/0fc782e4c558aa181580515af6d1203d6bf3efbc/.complete
+[2026-11-22T03:18:52Z] [iter=1] PHASE END: ast elapsed_s=238 elapsed_min=4.0
+[2026-11-22T03:18:52Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
